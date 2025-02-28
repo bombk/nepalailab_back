@@ -89,9 +89,9 @@ WSGI_APPLICATION = 'nepalailab.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nepalailab',
-        'USER': 'root',
-        'PASSWORD': '',
+        'NAME': 'nepalailab_app',
+        'USER': 'nepalailab_user',
+        'PASSWORD': 'qX9coMX[,D4!',
         'HOST': 'localhost',  # Or the IP address of your MySQL server
         'PORT': '3306', 
         'OPTIONS': {
